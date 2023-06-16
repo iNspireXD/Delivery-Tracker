@@ -1,11 +1,10 @@
-import { SafeAreaView, Text, View } from "react-native";
-import CustomersScreen from "./screens/CustomersScreen";
-import SafeAreaViewAndroid from "./components/SafeAreaViewAndroid";
+import { NavigationContainer } from "@react-navigation/native";
+import RootNavigator from "./navigator/RootNavigator";
 
 export default function App() {
   return (
-    <SafeAreaView style={SafeAreaViewAndroid.AndroidSafeArea}>
-      <CustomersScreen />
-    </SafeAreaView>
+    <NavigationContainer>
+      <RootNavigator />
+    </NavigationContainer>
   );
 }

@@ -1,13 +1,14 @@
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView } from "react-native";
 import React from "react";
+import SafeAreaViewAndroid from "../components/SafeAreaViewAndroid";
 
 type Props = {};
 
 const CustomersScreen = (props: Props) => {
   return (
-    <View>
+    <SafeAreaView style={SafeAreaViewAndroid.AndroidSafeArea}>
       <Text>CustomersScreen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
