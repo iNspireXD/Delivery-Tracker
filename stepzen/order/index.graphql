@@ -1,0 +1,6 @@
+type Query {
+  getOrders: JSON
+    @rest(
+      endpoint: "https://ups-rn-612f6-default-rtdb.asia-southeast1.firebasedatabase.app/orders.json"
+    )
+}
