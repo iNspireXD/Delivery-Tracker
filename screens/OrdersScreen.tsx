@@ -18,7 +18,7 @@ export type OrdersScreenNavigationProp = CompositeNavigationProp<
   NativeStackNavigationProp<RootStackParamList>
 >;
 
-type OrderScreenRouteProp = RouteProp<RootStackParamList, "Order">;
+// type OrderScreenRouteProp = RouteProp<RootStackParamList, "Order">;
 
 type Props = {};
 
